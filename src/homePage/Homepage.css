@@ -1,0 +1,86 @@
+.homePage-center-container
+{
+    height: 100%;
+    background: rgb(19,34,99);
+background: linear-gradient(90deg, rgba(19,34,99,1) 0%, rgba(6,19,69,1) 100%);
+    color:#fff;
+    font-family: "jost";
+    width: 100%;
+    padding: 11vw 12vw 5vw 12vw;
+}
+.homePage-center-element
+{
+    font-size: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    font-weight:300;
+    letter-spacing: 0.1vw;
+}
+.homePage-signature-text
+{
+    font-size: 1.5vw;
+    font-family: 'jost';
+    letter-spacing: 0.1vw;
+    font-weight: 300;
+    margin: 3vw 0 3vw 0 ;
+}
+.homePage-bottom-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:8vw 0 0 0;
+}
+.homePage-bottom-elements
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5vw;
+}
+.homePage-bottom-content
+{
+    display: flex;
+    flex-direction: column;
+}
+.bottom-section-highlight-values
+{
+    color: #2D83EE;
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+#button-left,#button-right
+{
+    font-size: 1vw;
+  width: 15vw;
+  height: 3vw;
+  color: #fff;
+ background: none;
+ border-radius: 10px;
+ box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.16);
+ opacity: 1;
+ border-color: rgba(113, 132, 253, 1);
+ 
+}
+#button-left
+{
+    border: none;
+background: rgb(113,132,253);
+background: linear-gradient(90deg, rgba(113,132,253,1) 0%, rgba(79,55,238,1) 100%);
+}
+#button-right
+{
+    margin-left: 2vw;
+    border-style: solid;
+}
+.homePage-vector
+{
+    position: absolute;
+    right: 15vw;
+    top: 10vw;
+    width: 20vw;
+}
+.bottom-section-text
+{
+    font-size: 1vw;
+}

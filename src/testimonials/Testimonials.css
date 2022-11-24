@@ -1,0 +1,170 @@
+.testimonial-main-body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2vw;
+}
+.upper-container
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 12vw;
+}
+.upper-container-left
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-left-container-text
+{
+    font-size: 0.7vw;
+    color: #2D83EE;
+    text-transform: uppercase;
+    letter-spacing: 0.2vw;
+    font-weight: 600;
+    font-family: "jost";
+}
+.upper-left-container-text-content
+{
+    font-size: 1.5vw;
+    font-family: "jost";
+    font-weight: 500;
+}
+#upper-left-container-button
+{
+    
+background: rgb(113,132,253);
+background: linear-gradient(200deg, rgba(113,132,253,1) 0%, rgba(79,55,238,1) 100%);
+    font-size: 1vw;
+    width:max-content;
+    padding: 0.3vw 1vw 0.3vw 1vw;
+    color: #fff;
+    border-radius: 5px;
+    font-family: "jost";
+    border: none;
+    text-transform: capitalize;
+    margin-top: 2vw;
+}
+.testimonial-mention-cards
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.cards
+{
+    width:20vw;
+    height: 12vw;
+    margin: 3vw;
+    box-shadow: 5px 5px 15px #00000029;
+    border: 0.5px solid #2D83EE;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 1vw;
+    align-items: center;
+}
+#testimonial-image-vectors
+{
+    width: 10vw;
+}
+#testimonial-cards-link
+{
+    color: #2D83EE;
+    font-weight: 600;
+    font-family: "jost";
+    font-size: 1vw;
+    text-transform: capitalize;
+}
+.client-testimonial-section
+{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 0 12vw 0 12vw;
+}
+.section-heading
+{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    width: 100%;
+}
+.testimonial-link
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#testimonial-review-section-heading
+{
+    font-weight: 600;
+    letter-spacing: 0.1vw;
+    font-family: "jost";
+    text-transform: uppercase;
+    font-size: 0.8vw;
+    color: #2D83EE;
+}
+#testimonial-link-heading
+{
+    font-weight: 600;
+    font-family: "jost";
+    text-transform: capitalize;
+    font-size: 1.5vw;
+}
+#review-link-button
+{
+    border: none;
+    font-family: "jost";
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 5px;
+    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+    background: rgb(113,132,253);
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.16);
+background: linear-gradient(90deg, rgba(113,132,253,1) 0%, rgba(79,55,238,1) 100%);
+}
+.review-section
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0 12vw 0 12vw;
+}
+.review-content-cards
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+    text-align: center;
+}
+#review-brand-img
+{
+    width: 10vw;
+    margin: 0 0 2vw 0;
+}
+#reviewer-name
+{
+    font-family: "jost";
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin-top: 2vw;
+}
+#reviewer-position
+{
+    font-family: "jost";
+    font-size: 0.8vw;
+    font-weight: 400;
+}
+#reviewer-text
+{
+    font-family: "jost";
+    font-size: 1vw;
+    font-weight: 400;
+}

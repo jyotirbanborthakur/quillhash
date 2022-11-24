@@ -1,0 +1,111 @@
+.services-main-body
+{
+    width:100%;
+    position: relative;
+    height:200%;
+    padding:5vw 12vw 0 12vw;
+}
+.services-top-bar
+{
+    display: flex;
+    flex-direction: column;
+}
+#services-top-bar-text1
+{
+    color:#2D83EE;
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-family: "jost";
+    letter-spacing: 0.1vw;
+}
+#services-top-bar-text2
+{
+    font-family: "jost";
+    font-size:2vw;
+    text-transform: capitalize;
+}
+#services-top-bar-brandings
+{
+    display: flex;
+    font-size: 1.5vw;
+    color: #2D83EE;
+    justify-content: space-between;
+    margin:2vw 0 2vw 0;
+    text-transform: uppercase;
+}
+.a
+{
+    height: 40vh;
+    position: relative;
+    color: #2D83EE;
+}
+.services-heading-text
+{
+    font-family: "jost";
+    font-size: 2vw;
+    font-weight: 400;
+}
+.services-id-text
+{
+    color: #2D83EE;
+    font-weight: 500;
+    font-size: 1vw;
+    font-family: "jost";
+    text-transform: uppercase;
+}
+.services-buttons
+{
+    border: none;
+    background: rgb(79,55,238);
+    background: linear-gradient(90deg, rgba(79,55,238,1) 0%, rgba(113,132,253,1) 100%);
+    width: 30%;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 5px 8px 10px #00000029;
+    padding: 0.5vw 0.8vw 0.5vw 0.8vw;
+}
+.services-text-body
+{
+    width: 85%;
+    font-size: 0.9vw;
+    font-weight: 500;
+    margin: 2vw 0 2vw 0;
+}
+.services-img
+{
+    width:20vw
+}
+.services-lower-section-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services-lower-section-subtext
+{
+    font-family: "jost";
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #2D83EE;
+    margin: 0 0 1vw 0;
+}
+.services-lower-section-heading
+{
+    font-family: "jost";
+    font-size: 1.8vw;
+    letter-spacing: 0.1vw;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+#services-lower-section-img
+{
+ width: 115%; 
+ margin: 1.5vw 0 4vw 0 ;   
+}
+.services-demo-vector
+{
+    width: 0.5vw;
+    margin: 0.7vw 0.5vw 0.7vw 0.5vw;
+}

@@ -1,0 +1,55 @@
+.contact-body {
+    width: 100%;
+    background: rgb(19, 34, 99);
+    background: linear-gradient(90deg, rgba(19, 34, 99, 1) 0%, rgba(6, 19, 69, 1) 100%);
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-container-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 0.9vw;
+    font-family: "jost";
+    color: #FFFFFF;
+    gap: 2vw;
+    padding: 3vw 0 3vw 12vw;
+}
+
+#contact-vector {
+    width: 20vw
+}
+
+#contact-input {
+    background-color: #061849;
+    border: none;
+    border-radius: 10px;
+    width: 33vw;
+    padding: 1vw 0 1vw 1vw;
+    color: #fff;
+}
+
+.success-notice {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+
+#tick {
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #00d26a;
+    padding: 0.1vw;
+}
+
+.contact-container-right {
+    background-image: url("../assets/contactBg.png");
+    width: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

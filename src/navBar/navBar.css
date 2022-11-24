@@ -1,0 +1,51 @@
+.navBar-body
+{
+    position: absolute;
+    top:3vh;
+    width: 100%;
+}
+.navBar-content
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    font-family: "jost";
+    justify-content: space-evenly;
+    width: 100%;
+    gap:5vw;
+
+}
+.navBar-clickables
+{
+    display: flex;
+    flex-direction: row;
+    gap:2.5vw;
+    align-items: center;
+    font-size: 1vw;
+
+}
+.navBar-buttons
+{
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 12vw;
+    height: 2.5vw;
+    background: rgb(113,132,253);
+background: linear-gradient(90deg, rgba(113,132,253,1) 0%, rgba(79,55,238,1) 100%);
+overflow: hidden;
+font-size: 1vw;
+
+}
+.dropdown-content {
+    
+    position: absolute;
+    background: linear-gradient(90deg, rgba(113,132,253,1) 0%, rgba(79,55,238,1) 100%);
+    border: 0.5px solid rgb(13, 87, 235);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5vw;
+    border-radius: 7px;
+    z-index: 1;
+  }
+  
