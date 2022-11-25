@@ -168,3 +168,76 @@ background: linear-gradient(90deg, rgba(113,132,253,1) 0%, rgba(79,55,238,1) 100
     font-size: 1vw;
     font-weight: 400;
 }
+
+
+.card
+{
+font-family: "jost";
+text-align: center;
+  width: 25vw;
+  height: 5vw;
+  box-shadow: 3px 3px 3px #888;
+  position: absolute;
+  color:#2D83EE
+}
+#card1
+{
+    opacity: .25;
+  left:65%;
+  border: 1px solid;
+ border-color: #2D83EE;
+  margin-top:-10vw;
+  z-index: 30;
+}
+#card2
+{
+  opacity: .5;
+  left: 63%;
+  border: 1px solid;
+  border-color: #2D83EE;
+  margin-top:-5vw;
+  z-index: 9;
+}
+#card3
+{
+  
+  left: 60%;
+  border: 1px solid;
+ border-color: #2D83EE;
+ background-color: #4a4bee;
+ color: #fff;
+  z-index: 31;
+}
+
+#card4
+{
+  opacity: .5;
+  left: 63%;
+  border: 1px solid;
+  border-color: #2D83EE;
+  margin-top:5vw;
+  z-index: 9;
+}
+#card5
+{
+  opacity: .25;
+  left: 65%;
+  border: 1px solid;
+  border-color: #2D83EE;
+  margin-top:10vw;
+  z-index: 30;
+}
+
+.title
+{
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.info
+{
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
